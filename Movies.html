@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies - Bongwatch</title>
+    <link rel="stylesheet" href="style/styles.css">
+<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/PenutCreation/Bongwatch/refs/heads/main/img/B_20250324_170033_0000.png">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">Bongwatch</h1>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+        </div>
+    </nav>
+
+
+<div class="Adsert">
+    <div class="theads">
+        <small><strong>Advertisements:</strong> Provided by Ads Network</small>
+        <script type="text/javascript">
+            atOptions = {
+                'key': 'e08c8bd506fcb544d18e45577f389cbd',
+                'format': 'iframe',
+                'height': 60,
+                'width': 468,
+                'params': {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/e08c8bd506fcb544d18e45577f389cbd/invoke.js"></script>
+    </div>
+</div>
+
+
+<center>
+<input type="text" id="search" placeholder="Search movies..." oninput="searchMovies()">
+<label for="genreFilter">Filter by Genre:</label>
+<select id="genreFilter" onchange="filterMovies()"></select>
+
+</center>
+<div id="movie"></div>
+<div id="movie-list"></div>
+    <h2>Recommended Movies</h2>
+    <div class="movies-container" id="recommended-list"></div>
+<div class="AdContaskl">
+   <strong>Advertisements:</strong>
+   <small>Provided by Ads Networks</small>
+   <div style="display: flex; justify-content: center; align-items: center;">
+        <script type="text/javascript">
+            atOptions = {
+                'key': '016a0430c728bfd369df0af5c69d190a',
+                'format': 'iframe',
+                'height': 250,
+                'width': 300,
+                'params': {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/016a0430c728bfd369df0af5c69d190a/invoke.js"></script>
+   </div>
+   <p>Ads are scanned by Google </p>
+</div>
+    <h2>Other Movies</h2>
+    <div class="movies-container" id="other-movies-list"></div>
+
+<div class="AdContaskl">
+   <strong>Advertisements:</strong>
+   <small>Provided by Ads Networks</small>
+   <div style="display: flex; justify-content: center; align-items: center;">
+        <script type="text/javascript">
+            atOptions = {
+                'key': '016a0430c728bfd369df0af5c69d190a',
+                'format': 'iframe',
+                'height': 250,
+                'width': 300,
+                'params': {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/016a0430c728bfd369df0af5c69d190a/invoke.js"></script>
+   </div>
+   <p>Ads are scanned by Google </p>
+</div>
+    <script src="asset/movies.js"></script>
+</body>
+</html>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #181818;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: black;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.movie img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.rent-btn {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.rent-btn:hover {
+    background-color: #e68900;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+</style>
