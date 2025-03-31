@@ -1,4 +1,52 @@
 const movies = [
+      { 
+        name: "Bring Them Down", 
+        page: "asset/movies/PAGEMOVIE_bring-them-down.html", 
+        image: "https://img.cdno.my.id/thumb/w_171/h_257/bring-them-down-1630858433.webp",
+        genre: "other" 
+    },
+    { 
+        name: "A Quiet Place:Day One", 
+        page: "asset/movies/PAGEMOVIE_Ga-quiet-place-day-one.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/a-quiet-place-day-one-1630857226.jpg",
+        genre: "Action" 
+    },
+    { 
+        name: "A Quiet Place II", 
+        page: "asset/movies/PAGEMOVIE_a-quiet-place-part-ii.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/a-quiet-place-part-ii-1621869026.jpg",
+        genre: "Comedy" 
+    },
+    { 
+        name: "World War Z", 
+        page: "asset/movies/PAGEMOVIE_worldwar-z.html", 
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlJoksMZJA7xz6fRmAD7KIdp5NoUX18eg5Ku3xcSFkVLbhVfjyRK81ZF8&amp;s=10",
+        genre: "Action" 
+    },
+    { 
+        name: "Fortitude: Forging the Trillion Dollar Space Economy", 
+        page: "asset/movies/PAGEMOVIE_fortitude-forging-the-trillion-dollar-space-economy.html",
+        image:"https://img.cdno.my.id/thumb/w_312/h_468/fortitude-forging-the-trillion-dollar-space-economy-1630858727.jpg",
+        genre: "Adventure" 
+    },
+    { 
+        name: "A Knights War", 
+        page: "asset/movies/PAGEMOVIE_a-knights-war.html", 
+        image: "https://img.cdno.my.id/thumb/w_234/h_351/a-knight-s-war-1630858719.webp",
+        genre: "Action" 
+    },
+    { 
+        name: "Gladiator II", 
+        page: "asset/movies/PAGEMOVIE_gladiatorII.html", 
+        image: "https://img.cdno.my.id/thumb/w_312/h_468/gladiator-ii-1630857926.jpg",
+        genre: "Action" 
+    },
+    { 
+        name: "Rampage(2018)", 
+        page: "asset/movies/PAGEMOVIE_rampage.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/rampage-24533.jpg",
+        genre: "Action" 
+    },
     { 
         name: "Inception", 
         page: "asset/movies/PAGEMOVIE_Inception.html", 
