@@ -1,4 +1,76 @@
 const movies = [
+  { 
+        name: "Wallace & Gromit: Vengeance Most Fowl", 
+        page: "asset/movies/PAGEMOVIE_wallaceh.html", 
+        image: "https://img.cdno.my.id/thumb/w_156/h_234/wallace--gromit-vengeance-most-fowl-1630858672.webp",
+        genre: "other" 
+    },
+    { 
+        name: "Attack on Titan: THE LAST ATTACK", 
+        page: "asset/movies/PAGEMOVIE_attack-on-titan-the-last-attack.html", 
+        image: "https://img.cdno.my.id/thumb/w_234/h_351/attack-on-titan-the-last-attack-1630858643.webp",
+        genre: "Action" 
+    },
+    { 
+        name: "Free Guy", 
+        page: "asset/movies/PAGEMOVIE_free-guy-1627222751.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/free-guy-1627222751.jpg",
+        genre: "Comedy" 
+    },
+    { 
+        name: "Ready Player One", 
+        page: "asset/movies/PAGEMOVIE_ready-player-one-24292.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/ready-player-one-24292.jpg",
+        genre: "Action" 
+    },
+    { 
+        name: "The Truman Show", 
+        page: "asset/movies/PAGEMOVIE_the-truman-show.html",
+        image:"https://img.cdno.my.id/thumb/w_200/h_300/the-truman-show-2432.jpg",
+        genre: "Adventure" 
+    },
+    { 
+        name: "Almighty Bruce", 
+        page: "asset/movies/PAGEMOVIE_bruce-almighty-3960.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/bruce-almighty-3960.jpg",
+        genre: "Action" 
+    },
+    { 
+        name: "Transformers One", 
+        page: "asset/movies/PAGEMOVIE_transformers-one-1630857630.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/transformers-one-1630857630.jpg",
+        genre: "Action" 
+    },
+    { 
+        name: "Transformers:The Last Knight", 
+        page: "asset/movies/PAGEMOVIE_transformers-the-last-knight-21142.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/transformers-the-last-knight-21142.jpg",
+        genre: "Action" 
+    },
+    { 
+        name: "Transformers:Rise of The Beasts", 
+        page: "asset/movies/PAGEMOVIE_transformers-rise-of-the-beasts-1630855300.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/transformers-rise-of-the-beasts-1630855300.jpg",
+        genre: "others" 
+    },
+    { 
+        name: "Transformers:Revenge Of The Fallen", 
+        page: "asset/movies/PAGEMOVIE_transformers-revenge-of-the-fallen-1707.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/transformers-revenge-of-the-fallen-1707.jpg",
+        genre: "others" 
+    },
+    { 
+        name: "Transformers:Dark Side Of the Moon", 
+        page: "asset/movies/PAGEMOVIE_transformers-dark-of-the-moon.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/transformers-dark-of-the-moon-1706.jpg",
+        genre: "action" 
+    },
+    { 
+        name: "Deadpool", 
+        page: "asset/movies/PAGEMOVIE_deadpool-2883.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/deadpool-9802.jpg",
+        genre: "action" 
+    },
       { 
         name: "Bring Them Down", 
         page: "asset/movies/PAGEMOVIE_bring-them-down.html", 
