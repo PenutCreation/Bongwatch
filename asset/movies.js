@@ -1,4 +1,34 @@
 const movies = [
+ { 
+        name: "A Minecraft Movie", 
+        page: "asset/movies/PAGEMOVIE_a-minecraft-movie-387383873.html", 
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4SqqxtPAydhmhZ3neF0FSaok-z3jjPGJCCkT7y2ljZr6-5GEmxSbVQFtf&amp;s=10",
+        genre: "other" 
+    },
+    { 
+        name: "The Amazing Spider-man 2", 
+        page: "asset/movies/PAGEMOVIE_the-amazing-spider-man-2-48473.html", 
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXsqzdj_a6ur2jeB3i3_Za0pz0UVBrfxKtPg&amp;s",
+        genre: "Comedy" 
+    },
+    { 
+        name: "The Beekeeper", 
+        page: "asset/movies/PAGEMOVIE_the-beekeeper-1630856389.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/the-beekeeper-1630856389.jpg",
+        genre: "Action" 
+    },
+    { 
+        name: "Spider-man:Across The Spider-verse", 
+        page: "asset/movies/PAGEMOVIE_spider-man-across-the-spider-verse.html",
+        image:"https://img.cdno.my.id/thumb/w_200/h_300/the-truman-show-2432.jpg",
+        genre: "Adventure" 
+    },
+    { 
+        name: "Aquaman", 
+        page: "asset/movies/PAGEMOVIE_Aquaman-383748.html", 
+        image: "https://upload.wikimedia.org/wikipedia/en/e/ed/Aquaman_%28film%29_poster.jpg",
+        genre: "Action" 
+    },
   { 
         name: "Wallace & Gromit: Vengeance Most Fowl", 
         page: "asset/movies/PAGEMOVIE_wallaceh.html", 
