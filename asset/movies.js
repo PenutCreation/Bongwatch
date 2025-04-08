@@ -1,5 +1,91 @@
 const movies = [
  { 
+        name: "Pacific Rim", 
+        page: "asset/movies/PAGEMOVIE_pacific-rim-2155.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/pacific-rim-2155.jpg",
+        genre: "other" 
+    },
+    { 
+        name: "Invincible S2", 
+        page: "asset/movies/PAGEMOVIE_invincible-season-2-1630856012.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/invincible-season-2-1630856012.jpg",
+        genre: "Comedy" 
+    },
+    { 
+        name: "Rick And Morty", 
+        page: "asset/movies/PAGEMOVIE_rick-and-morty-1630856389.html", 
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWVNlpOkyo6HVu-7md5L6IrKShfqAt0zQq_sfRY2D14l1vwwWpiBREl7s&amp;s=10",
+        genre: "Action" 
+    },
+    { 
+        name: "Monkey King:  Hero is Back", 
+        page: "asset/movies/PAGEMOVIE_monkey-king-hero-is-back-1630858788.html",
+        image:"https://img.cdno.my.id/thumb/w_156/h_234/monkey-king-hero-is-back-1630858788.webp",
+        genre: "Adventure" 
+    },
+    { 
+        name: "The World Will Tremble", 
+        page: "asset/movies/PAGEMOVIE_the-world-will-tremble-1630858787.html", 
+        image: "https://img.cdno.my.id/thumb/w_312/h_468/the-world-will-tremble-1630858787.webp",
+        genre: "Action" 
+    },
+    { 
+        name: "Five Broken Camras", 
+        page: "asset/movies/PAGEMOVIE_five-broken-cameras-1630858755.html", 
+        image: "https://img.cdno.my.id/thumb/w_234/h_351/five-broken-cameras-1630858755.webp",
+        genre: "Action" 
+    },
+    { 
+        name: "The Glassworker", 
+        page: "asset/movies/PAGEMOVIE_the-glassworker-1630858642.html", 
+        image: "https://img.cdno.my.id/thumb/w_234/h_351/the-glassworker-1630858642.webp",
+        genre: "Action" 
+    },
+    { 
+        name: "Night of the Zoopocalypse", 
+        page: "asset/movies/PAGEMOVIE_night-of-the-zoopocalypse-1630858767.html", 
+        image: "https://img.cdno.my.id/thumb/w_312/h_468/night-of-the-zoopocalypse-1630858767.webp",
+        genre: "others" 
+    },
+    { 
+        name: "Hearts Around the Table: Josh's Third Serving", 
+        page:
+        "asset/movies/PAGEMOVIE_hearts-around-the-table-josh-s-third-serving-1630858783.html",
+        
+        image: "https://img.cdno.my.id/thumb/w_312/h_468/hearts-around-the-table-josh-s-third-serving-1630858783.webp",
+        genre: "others" 
+    },
+    { 
+        name: "Kupu-Kupu Kertas", 
+        page: "asset/movies/PAGEMOVIE_kupu-kupu-kertas-1630858782.html", 
+        image: "https://img.cdno.my.id/thumb/w_234/h_351/kupu-kupu-kertas-1630858782.webp",
+        genre: "action" 
+    },
+    { 
+        name: "Candlewood", 
+        page: "asset/movies/PAGEMOVIE_candlewood-1630858786.html", 
+        image: "https://img.cdno.my.id/thumb/w_234/h_351/candlewood-1630858786.webp",
+        genre: "action" 
+    },
+    { 
+        name: "Final Caller", 
+        page: "asset/movies/PAGEMOVIE_final-caller-1630858778.html", 
+        image: "https://img.cdno.my.id/thumb/w_234/h_351/final-caller-1630858778.webp",
+        genre: "action" 
+    },
+    { 
+        name: "825 Forest Road", 
+        page: "asset/movies/PAGEMOVIE_825-forest-road-1630858774.html", 
+        image: "https://img.cdno.my.id/thumb/w_234/h_351/825-forest-road-1630858774.webp",
+        genre: "action" 
+    },
+    { 
+        name: "Pacific Rim: Uprising", 
+        page: "asset/movies/PAGEMOVIE_pacific-rim-uprising-24221.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/pacific-rim-uprising-24221.jpg",
+        genre: "action" 
+    },
+ { 
         name: "A Minecraft Movie", 
         page: "asset/movies/PAGEMOVIE_a-minecraft-movie-387383873.html", 
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4SqqxtPAydhmhZ3neF0FSaok-z3jjPGJCCkT7y2ljZr6-5GEmxSbVQFtf&amp;s=10",
