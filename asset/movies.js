@@ -1,4 +1,48 @@
 const movies = [
+
+    { 
+        name: "The Great Escape", 
+        page: "asset/movies/PAGEMOVIE_the-great-escape-6892.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/the-great-escape-6892.jpg",
+        genre: "action" 
+    },
+    { 
+        name: "America‘s Burning", 
+        page: "asset/movies/PAGEMOVIE_america-s-burninh-2422828282831.html", 
+        image: "https://img.cdno.my.id/thumb/w_171/h_257/america-s-burning-1630858799.webp",
+        genre: "action" 
+    },
+    { 
+        name: "Silent Roar ", 
+        page: "asset/movies/PAGEMOVIE_silent-roar-39374848.html", 
+        image: "https://img.cdno.my.id/thumb/w_171/h_257/silent-roar-1630858798.webp",
+        genre: "action" 
+    },
+   { 
+        name: "Mickey 17", 
+        page: "asset/movies/PAGEMOVIE_micky-17-93747.html", 
+        image: "https://img.cdno.my.id/thumb/w_171/h_257/mickey-17-1630858789.webp",
+        genre: "Adventure" 
+    },
+   { 
+        name: "A Working man", 
+        page: "asset/movies/PAGEMOVIE_a-working-man.html", 
+        image: "https://img.cdno.my.id/thumb/w_171/h_257/a-working-man-1630858790.jpg",
+        genre: "Adventure" 
+    },
+   { 
+        name: "The Meg", 
+        page: "asset/movies/PAGEMOVIE_The-meg.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/the-meg-25819.jpg",
+        genre: "Adventure" 
+    },
+   { 
+        name: "Attack on Titan", 
+        page: "asset/movies/PAGEMOVIE_attack-on-titan.html", 
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu1Lxhucxb2DP-lRnzVfasheqf0IM4xvu6yckqKsGAln50D8cnaKvD1IK1&amp;s=10",
+        genre: "Adventure" 
+    },
+ 
  { 
         name: "Pacific Rim", 
         page: "asset/movies/PAGEMOVIE_pacific-rim-2155.html", 
