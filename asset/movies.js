@@ -1,6 +1,24 @@
 const movies = [
 
     { 
+        name: "Uploud", 
+        page: "asset/movies/PAGEMOVIE_uploud-4838.html", 
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAc1uNPEBR0wJb_r8ovyosvUGhGhkKfUHgvlZy9Xm7bNZ08AOzgy3Jtjw&amp;s=10",
+        genre: "action" 
+    },
+    { 
+        name: "The Wild Robot", 
+        page: "asset/movies/PAGEMOVIE_wild-robot-page-SED.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/the-wild-robot-1630858186.jpg",
+        genre: "action" 
+    },
+    { 
+        name: "Moses", 
+        page: "asset/movies/PAGEMOVIE_moses-6838.html", 
+        image: "https://img.cdno.my.id/thumb/w_200/h_300/moses-1630853049.jpg",
+        genre: "action" 
+    },
+    { 
         name: "The Great Escape", 
         page: "asset/movies/PAGEMOVIE_the-great-escape-6892.html", 
         image: "https://img.cdno.my.id/thumb/w_200/h_300/the-great-escape-6892.jpg",
